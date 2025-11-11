@@ -246,6 +246,7 @@
   border: none;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
   transition: all 0.3s ease-in-out;
+  min-width: 300px;
   height: 100%;
 }
 
