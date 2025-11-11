@@ -209,9 +209,12 @@
 #agenda {
   padding: 5px;
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: fit-content;
 }
 #agenda-contact {
   padding-top: 20vw;
+  overflow-y: hidden;
   height: 72vh !important;
 }
 .section-hero-new-contact {
