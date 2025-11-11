@@ -311,6 +311,48 @@
 
 /* / Agenda*/
 
+/* insta-call */
+.insta-call {
+  background: url(../images/backgrounds/insta-call.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex; /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 13vw; /* Define uma altura para a faixa */
+}
+
+.insta-call .instagram-text {
+  font-family: "DynaPuff", system-ui; /* Fonte destacada */
+  font-size: clamp(2rem, 2vw, 4rem); /* Tamanho de fonte responsivo */
+  color: var(--branco); /* Cor branca para contraste */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Para alinhar o ícone e o texto */
+  align-items: center; /* Alinhamento vertical do ícone e texto */
+  gap: 5px; /* Espaçamento entre o ícone e o texto */
+  margin-top: -75px;
+}
+
+.insta-call .instagram-text i {
+  font-size: clamp(2rem, 2vw, 4rem); /* Tamanho do ícone */
+  color: var(--branco);
+}
+
+/* Efeito hover para o texto e ícone do Instagram */
+.insta-call .instagram-text:hover {
+  transform: scale(1.01);
+  text-decoration: none;
+}
+.insta-call .instagram-text:active  {
+  transform: scale(0.99);
+}
+
+/* /insta-call */
+
 /* Footer */
 .igorlazzaretti {
   color: darkgray;
